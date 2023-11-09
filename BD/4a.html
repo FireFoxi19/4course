@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор расположения текста в таблице</title>
+</head>
+
+<body>
+    <form action="4b.php" method="post">
+        <label>Горизонтальное расположение текста:</label><br>
+        <input type="radio" name="align" value="left"> Слева<br>
+        <input type="radio" name="align" value="center"> По центру<br>
+        <input type="radio" name="align" value="right"> Справа<br>
+
+        <br>
+
+        <label>Вертикальное расположение текста:</label><br>
+        <input type="checkbox" name="valign[]" value="top"> Сверху<br>
+        <input type="checkbox" name="valign[]" value="middle"> По центру<br>
+        <input type="checkbox" name="valign[]" value="bottom"> Снизу<br>
+
+        <br>
+
+        <input type="submit" value="Выполнить">
+    </form>
+</body>
+<header>
+    <a href = "index.php">HOME<br/></a>
+</header>
+</html>

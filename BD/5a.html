@@ -1,0 +1,62 @@
+<html>
+    <header>
+        <a href = "index.php">HOME<br/></a>
+    </header>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по элементарной теории музыки</title>
+</head>
+<body>
+    <h1>Тест по элементарной теории музыки</h1>
+    <form action="5b.php" method="post">
+        <label for="name">Введите ваше имя:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <h2>Вопрос 1:</h2>
+        <p>Что обозначает музыкальный символ "♯"?</p>
+        <select name="q1">
+            <option value="1">Диез (повышение ноты на полтона)</option>
+            <option value="2">Молоток для стука по барабану</option>
+            <option value="3">Звезда</option>
+        </select>
+
+        <h2>Вопрос 2:</h2>
+        <p>Сколько нот в октаве?</p>
+        <select name="q2">
+            <option value="1">6</option>
+            <option value="2">8</option>
+            <option value="3">12</option>
+        </select>
+
+        <h2>Вопрос 3:</h2>
+        <p>Какое название у ноты с самым низким звуком на фортепиано?</p>
+        <select name="q3">
+            <option value="1">До</option>
+            <option value="2">Ре</option>
+            <option value="3">Ми</option>
+        </select>
+
+        <h2>Вопрос 4:</h2>
+        <p>Что обозначает музыкальный символ "♭"?</p>
+        <select name="q4">
+            <option value="1">Бемоль (понижение ноты на полтона)</option>
+            <option value="2">Крест (повышение на полтона)</option>
+            <option value="3">Знак вопроса</option>
+        </select>
+
+        <h2>Вопрос 5:</h2>
+        <p>Какая нота является начальной для большинства музыкальных произведений?</p>
+        <select name="q5">
+            <option value="1">До</option>
+            <option value="2">Ми</option>
+            <option value="3">Си</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Проверить ответы">
+    </form>
+</body>
+</html>
