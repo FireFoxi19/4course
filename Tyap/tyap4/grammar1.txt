@@ -1,0 +1,10 @@
+0 c Z 0 cZ eps
+0 c c 0 cc eps
+0 a c 1 c eps
+1 a c 1 aac 0
+1 a a 1 aaa 0
+1 b a 2 eps eps
+2 b a 2 eps eps
+2 λ c 3 eps eps
+3 λ c 3 eps 1
+3 λ Z f eps eps

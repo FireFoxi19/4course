@@ -1,0 +1,9 @@
+0 a Z 1 Z 0
+1 a Z 1 aZ 00
+1 a a 1 aa 00
+1 b a 2 eps 1
+1 c Z 3 Z eps
+2 b a 2 eps 1
+2 c Z 3 Z eps
+3 c Z 3 Z a
+3 eps Z f eps eps
