@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LabsPGI", "LabsPGI\LabsPGI.pyproj", "{20F336CD-F6D4-4EC2-82B5-D56EC08E9739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F336CD-F6D4-4EC2-82B5-D56EC08E9739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F336CD-F6D4-4EC2-82B5-D56EC08E9739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D95E47E-B07C-451E-9896-14B472B885D3}
+	EndGlobalSection
+EndGlobal
